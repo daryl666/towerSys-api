@@ -314,11 +314,11 @@ if (!function_exists('transElecType')) {
     function transElecType($post_type)
     {
         $map = [
-            1 => '220V',
-            2 => '380V',
+            0 => '220V',
+            1 => '380V',
             999 => '未知',
-            '220V' => 1,
-            '380V' => 2,
+            '220V' => 0,
+            '380V' => 1,
             '未知' => 999,
         ];
         if ($post_type === 'all') {

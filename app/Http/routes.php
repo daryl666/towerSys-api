@@ -25,6 +25,10 @@ $api->version('v1', function ($api) {
             $api->resource('priceTower', 'PriceTowerController');
             $api->resource('priceHouse', 'PriceHouseController');
             $api->resource('priceMaintain', 'PriceMaintainController');
+            $api->resource('priceSite', 'PriceSiteController');
+            $api->resource('priceSupport', 'PriceSupportController');
+            $api->resource('priceImport', 'PriceImportController');
+            $api->resource('shareDiscount', 'ShareDiscountController');
         });
     });
 });
