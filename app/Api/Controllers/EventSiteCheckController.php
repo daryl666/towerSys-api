@@ -25,7 +25,7 @@ class EventSiteCheckController extends BaseController
             $params = $request->all();
             $eventSiteChecks = ($params['reqCheckStatus'] == 1) ? EventSiteCheck::reqUnchecked() : EventSiteCheck::reqChecked();
             if ($queryCondition != '湖北省') {
-                $eventSiteChecks = $eventSiteChecks->where('region_name', $queryCondition);
+                $eventSiteChecks = $eventSiteChecks->where('region', $queryCondition);
             }
             $eventSiteChecks = $params['beginDate'] ? $eventSiteChecks->where('site_check_req_time', '>=', $params['beginDate'] . ' 00:00:00') : $eventSiteChecks;
             $eventSiteChecks = $params['endDate'] ? $eventSiteChecks->where('site_check_req_time', '<=', $params['endDate'] . ' 11:59:59') : $eventSiteChecks;

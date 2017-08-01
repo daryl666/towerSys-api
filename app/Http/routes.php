@@ -29,6 +29,7 @@ $api->version('v1', function ($api) {
             $api->resource('priceSupport', 'PriceSupportController');
             $api->resource('priceImport', 'PriceImportController');
             $api->resource('shareDiscount', 'ShareDiscountController');
+            $api->resource('eventTysysOs', 'EventTysysOsController');
         });
     });
 });

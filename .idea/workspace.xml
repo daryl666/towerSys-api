@@ -23,13 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EventSiteCheckController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Api/Controllers/EventSiteCheckController.php">
+      <file leaf-file-name="EventTysysOsController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Api/Controllers/EventTysysOsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2262">
-              <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+            <state relative-caret-position="469">
+              <caret line="27" column="85" lean-forward="false" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
               <folding>
-                <element signature="e#126#177#0#PHP" expanded="true" />
+                <element signature="e#125#174#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,15 +41,15 @@
     <findStrings>
       <find>transShareNum</find>
       <find>sitecheck</find>
+      <find>region_name</find>
     </findStrings>
+    <replaceStrings>
+      <replace>region</replace>
+    </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/config/api.php" />
-        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Api/Controllers/SiteOrderController.php" />
         <option value="$PROJECT_DIR$/app/Api/Transformer/SiteOrderTransformer.php" />
         <option value="$PROJECT_DIR$/app/Api/Transformer/SiteOrderCoreTransformer.php" />
@@ -68,7 +68,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2017_07_21_102953_create_event_site_check.php" />
         <option value="$PROJECT_DIR$/app/Models/EventSiteCheck.php" />
         <option value="$PROJECT_DIR$/app/Api/Transformers/EventSiteCheckTransformer.php" />
-        <option value="$PROJECT_DIR$/app/Api/Controllers/EventSiteCheckController.php" />
         <option value="$PROJECT_DIR$/app/Models/SiteOs.php" />
         <option value="$PROJECT_DIR$/app/Api/Controllers/SiteOrderCoreController.php" />
         <option value="$PROJECT_DIR$/app/Api/Controllers/SiteOsController.php" />
@@ -94,9 +93,14 @@
         <option value="$PROJECT_DIR$/app/helpers.php" />
         <option value="$PROJECT_DIR$/app/Api/Transformers/PriceImportTransformer.php" />
         <option value="$PROJECT_DIR$/app/Api/Controllers/ShareDiscountController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Api/Transformers/ShareDiscountTransformer.php" />
         <option value="$PROJECT_DIR$/app/Api/Controllers/EventTysysOs.php" />
+        <option value="$PROJECT_DIR$/app/Models/EventTysysOs.php" />
+        <option value="$PROJECT_DIR$/app/Api/Controllers/EventSiteCheckController.php" />
+        <option value="$PROJECT_DIR$/app/Api/Transformers/TysysOsTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Api/Transformers/EventTysysOsTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Api/Controllers/EventTysysOsController.php" />
       </list>
     </option>
   </component>
@@ -437,12 +441,12 @@
       <workItem from="1500884704429" duration="5605000" />
       <workItem from="1501034454922" duration="5847000" />
       <workItem from="1501120990409" duration="2211000" />
-      <workItem from="1501553504016" duration="561000" />
+      <workItem from="1501553504016" duration="3217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58951000" />
+    <option name="totallyTimeSpent" value="61607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -451,6 +455,7 @@
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23203126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -462,7 +467,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -479,48 +483,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding>
-            <marker date="1499835385000" expanded="true" signature="113:1828" ph="{...}" />
-            <marker date="1499835385000" expanded="true" signature="123:290" ph=" The application's global HTTP middleware stack. ..." />
-            <marker date="1499835385000" expanded="true" signature="322:450" ph="..." />
-            <marker date="1499835385000" expanded="true" signature="461:542" ph=" The application's route middleware groups. ..." />
-            <marker date="1499835385000" expanded="true" signature="580:1047" ph="..." />
-            <marker date="1499835385000" expanded="true" signature="599:933" ph="..." />
-            <marker date="1499835385000" expanded="true" signature="955:1040" ph="..." />
-            <marker date="1499835385000" expanded="true" signature="1058:1211" ph=" The application's route middleware. ..." />
-            <marker date="1499835385000" expanded="true" signature="1248:1824" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding>
-            <marker date="1500019995000" expanded="true" signature="15:8537" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="23:451" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="505:928" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="979:1395" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="1455:1879" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="1915:2354" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="2387:2818" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="2860:3281" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="3353:3847" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="3897:4329" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="4353:6135" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="4365:4425" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="5872:5926" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="6145:6559" ph="..." />
-            <marker date="1500019995000" expanded="true" signature="6581:8533" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/tymon/jwt-auth/src/Facades/JWTAuth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162">
@@ -1830,22 +1792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-          <folding>
-            <marker date="1501123636000" expanded="false" signature="9:390" ph="..." />
-            <marker date="1501123636000" expanded="true" signature="449:1525" ph="..." />
-            <marker date="1501123636000" expanded="true" signature="472:1524" ph="..." />
-            <marker date="1501123636000" expanded="true" signature="489:1521" ph="..." />
-            <marker date="1501123636000" expanded="true" signature="544:1520" ph="..." />
-            <marker date="1501123636000" expanded="true" signature="754:1513" ph="..." />
-            <marker date="1501123636000" expanded="true" signature="810:1512" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Api/Transformers/ShareDiscountTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1860,24 +1806,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Api/Controllers/EventTysysOs.php">
+    <entry file="file://$PROJECT_DIR$/app/Models/EventTysysOs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="555">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
-            <marker date="1501554220000" expanded="false" signature="9:88" ph=" Created by PhpStorm. ..." />
-            <marker date="1501554220000" expanded="true" signature="166:225" ph="{...}" />
-            <marker date="1501554220000" expanded="true" signature="210:223" ph="{...}" />
+            <marker date="1501555796000" expanded="true" signature="103:352" ph="{...}" />
+            <marker date="1501555796000" expanded="true" signature="189:249" ph="{...}" />
+            <marker date="1501555796000" expanded="true" signature="290:350" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Api/Controllers/EventSiteCheckController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2262">
-          <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+        <state relative-caret-position="343">
+          <caret line="27" column="86" lean-forward="true" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
           <folding>
-            <element signature="e#126#177#0#PHP" expanded="true" />
+            <marker date="1501555861000" expanded="false" signature="9:89" ph=" Created by PhpStorm. ..." />
+            <marker date="1501555861000" expanded="true" signature="130:237" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="242:310" ph=" Class EventSiteCheckController ..." />
+            <marker date="1501555861000" expanded="true" signature="366:4399" ph="{...}" />
+            <marker date="1501555861000" expanded="true" signature="428:1920" ph="{...}" />
+            <marker date="1501555861000" expanded="true" signature="478:1506" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="690:790" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="1150:1233" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="1340:1446" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="1454:1496" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="1514:1913" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="1621:1704" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="1753:1853" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="1861:1903" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="1965:2353" ph="{...}" />
+            <marker date="1501555861000" expanded="true" signature="2140:2241" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="2249:2346" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="2404:4397" ph="{...}" />
+            <marker date="1501555861000" expanded="true" signature="2484:4390" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="2504:3065" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="2579:2747" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="2580:2746" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="2787:2912" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="2920:3041" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="3085:3773" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="3206:3459" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="3207:3458" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="3495:3620" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="3628:3749" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="3793:4331" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="3916:4019" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="3917:4018" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="4057:4180" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="4188:4307" ph="..." />
+            <marker date="1501555861000" expanded="true" signature="4352:4381" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Api/Transformers/EventTysysOsTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <marker date="1501556538000" expanded="false" signature="9:88" ph=" Created by PhpStorm. ..." />
+            <marker date="1501556538000" expanded="true" signature="130:194" ph="..." />
+            <marker date="1501556538000" expanded="true" signature="253:1336" ph="{...}" />
+            <marker date="1501556538000" expanded="true" signature="313:1334" ph="{...}" />
+            <marker date="1501556538000" expanded="true" signature="337:1046" ph="..." />
+            <marker date="1501556538000" expanded="true" signature="1097:1305" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+          <folding>
+            <marker date="1501556603000" expanded="false" signature="9:390" ph="..." />
+            <marker date="1501556603000" expanded="true" signature="449:1595" ph="..." />
+            <marker date="1501556603000" expanded="true" signature="472:1594" ph="..." />
+            <marker date="1501556603000" expanded="true" signature="489:1591" ph="..." />
+            <marker date="1501556603000" expanded="true" signature="544:1590" ph="..." />
+            <marker date="1501556603000" expanded="true" signature="754:1583" ph="..." />
+            <marker date="1501556603000" expanded="true" signature="810:1582" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Api/Controllers/EventTysysOsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="27" column="85" lean-forward="false" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
+          <folding>
+            <element signature="e#125#174#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
