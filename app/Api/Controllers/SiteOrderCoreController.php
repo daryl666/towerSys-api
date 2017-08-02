@@ -9,6 +9,7 @@
 namespace App\Api\Controllers;
 
 
+use App\Api\Paginator\Paginator;
 use App\Models\SiteOrderCore;
 use App\Api\Transformers\SiteOrderCoreTransformer;
 use Illuminate\Http\Request;
@@ -16,13 +17,7 @@ use Illuminate\Http\Response;
 
 class SiteOrderCoreController extends BaseController
 {
-    public function index()
-    {
-        $siteOrderCores = SiteOrderCore::all();
-        return $this->collection($siteOrderCores, new SiteOrderCoreTransformer());
-    }
-
-    public function show($queryCondition)
+    public function show($queryCondition, Request $request)
     {
         if (is_numeric($queryCondition)) {
             $siteOrderCores = SiteOrderCore::find($queryCondition);
@@ -32,15 +27,15 @@ class SiteOrderCoreController extends BaseController
             return $this->item($siteOrderCores, new SiteOrderCoreTransformer());
         } else {
             if ($queryCondition == '湖北省') {
-                $siteOrderCores = SiteOrderCore::isLatest()->get();
+                $siteOrderCores = SiteOrderCore::isLatest()->paginate(10);
             } else {
-                $siteOrderCores = SiteOrderCore::isLatest()->where('region', $queryCondition)->get();
+                $siteOrderCores = SiteOrderCore::isLatest()->where('region', $queryCondition)->paginate(10);
             }
             if (!$siteOrderCores) {
                 return $this->response->errorNotFound('not found');
             }
             if (!$siteOrderCores->isEmpty()) {
-                return $this->collection($siteOrderCores, new SiteOrderCoreTransformer());
+                return $this->response->paginator($siteOrderCores, new SiteOrderCoreTransformer());
             } else {
                 return null;
             }

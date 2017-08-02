@@ -378,7 +378,7 @@ if (!function_exists('transOsReason')) {
     {
         $map = [
             1 => '停电',
-            2 => '电源设别',
+            2 => '电源设备',
             3 => '传输线路',
             4 => '传输设备',
             5 => '物业',
@@ -409,9 +409,9 @@ if (!function_exists('transOsReason')) {
 }
 
 /*责任单位字段定义*/
-if (!function_exists('transRespUnit')) {
+if (!function_exists('transResponsibleParty')) {
 
-    function transRespUnit($post_type)
+    function transResponsibleParty($post_type)
     {
         $map = [
             1 => '铁塔',
