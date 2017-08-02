@@ -29,10 +29,10 @@ class EventSiteCheckController extends BaseController
             }
             $eventSiteChecks = $params['beginDate'] ? $eventSiteChecks->where('site_check_req_time', '>=', $params['beginDate'] . ' 00:00:00') : $eventSiteChecks;
             $eventSiteChecks = $params['endDate'] ? $eventSiteChecks->where('site_check_req_time', '<=', $params['endDate'] . ' 11:59:59') : $eventSiteChecks;
+            $eventSiteChecks = $eventSiteChecks->get();
             if (!$eventSiteChecks) {
                 return $this->response()->errorNotFound('not found');
             }
-            $eventSiteChecks = $eventSiteChecks->get();
             if ($eventSiteChecks->count() >= 1) {
                 return $this->collection($eventSiteChecks, new EventSiteCheckTransformer());
             } else {

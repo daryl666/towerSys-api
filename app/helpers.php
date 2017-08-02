@@ -433,3 +433,70 @@ if (!function_exists('transResponsibleParty')) {
     }
 }
 
+/*发电发起方字段定义*/
+if (!function_exists('transGnrRaiseSide')) {
+
+    function transGnrRaiseSide($post_type)
+    {
+        $map = [
+            1 => '铁塔',
+            2 => '电信',
+            '铁塔' => 1,
+            '电信' => 2,
+        ];
+
+        if ($post_type === 'all') {
+            return $map;
+        }
+        if (isset($map[$post_type])) {
+            return $map[$post_type];
+        }
+        return '';
+    }
+}
+
+if (!function_exists('transGnrStatus')) {
+    function transGnrStatus($post_type)
+    {
+        $map = [
+            1 => '发电前退服',
+            2 => '发电过程中退服',
+            3 => '发结束后仍然退服',
+            '发电前退服' => 1,
+            '发电过程中退服' => 2,
+            '发结束后仍然退服' => 3,
+        ];
+
+        if ($post_type === 'all') {
+            return $map;
+        }
+
+
+        if (isset($map[$post_type])) {
+            return $map[$post_type];
+        }
+
+        return '';
+    }
+}
+
+/*发电结果字段定义*/
+if (!function_exists('transGnrResult')) {
+    function transGnrResult($post_type)
+    {
+        $map = [
+            2 => '失败',
+            1 => '成功',
+            '失败' => 2,
+            '成功' => 1,
+        ];
+        if ($post_type === 'all') {
+            return $map;
+        }
+        if (isset($map[$post_type])) {
+            return $map[$post_type];
+        }
+        return '';
+    }
+}
+
